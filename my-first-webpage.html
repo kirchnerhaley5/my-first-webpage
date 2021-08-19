@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US"></html>
-<head>
+<head id="head">
   <title>Web Page #1!</title>
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
 </head>
 <body>
   <h1>My first web page</h1>
-  <h2>Written with the guidance of Epicodus</h2>
-  <p>This is my first web page!</p>
+  <ul id="navbar">
+    <li><a href="my-first-webpage.html" title="Home">Home</a></li>
+    <li><a href="Favorites" title="Other Favorites">My other Favorites</a>
+      <ul>
+        <li><a href="favorite-things.html" target="My favorite Things">My favorite things</a></li>
+        <li><a href="favorite-places.html" target="My favorite Places">My favorite Places</a></li>
+      </ul>
+    </li>
+  </ul>
+  <h2>This is my first web page!</h2>
   <p>Isn't it nice?</p>
 
   <p>Here are some things I'm going to learn about coding:</p>
